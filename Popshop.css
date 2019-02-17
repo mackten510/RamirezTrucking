@@ -1,0 +1,71 @@
+.body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-wrapper  {
+    height: 20px;
+    background-color: goldenrod;
+    color: #8d2929;
+/* using flexbox container */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 60px;
+}
+
+/*Front & top of the site*/
+.main-wrapper > .top-side-container { 
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+
+.main-wrapper > .top-side-container > .icon-contact-wrapper  {
+    display: flex;
+    align-items: center;
+}
+
+.main-wrapper > .top-side-container > .icon-contact-wrapper > .icon-trucking {
+    margin: 15px;
+    font-size: 50px;
+}
+
+.main-wrapper > .top-side-container > .icon-contact-wrapper > .pops-contact {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+.main-wrapper > .top-side-container > .icon-contact-wrapper > .application  {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:rgba(29, 42, 119, 0.333);
+    font-size: 8em;
+}
+
+.main-wrapper > .top-side-container > .icon-contact-wrapper > .application a:hover {
+    color: #5665;
+    transition-delay: 0.5s;
+}
+
+.restofit {
+    background-image: url(../Pops-website/BigRig.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-wrapper > .gutfeelings i {
+    font-size: 2em;
+    color: #11122b; 
+}
+
+.main-wrapper > .gutfeelings i:hover {
+    color: #1d0a1a;
+    transition: 0.5s;
+}
+
+
