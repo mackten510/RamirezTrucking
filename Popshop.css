@@ -5,12 +5,11 @@
 
 
 .main-wrapper  {
-    height: 20px;
     background-color: goldenrod;
     color: #8d2929;
 /* using flexbox container */
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 100px 60px;
 }
@@ -19,7 +18,7 @@
 .main-wrapper > .top-side-container { 
     margin-right: 20px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
 
@@ -40,13 +39,13 @@
 }
 
 
-.main-wrapper > .top-side-container > .icon-contact-wrapper > .application  {
+.main-wrapper > .top-side-container > .icon-contact-wrapper > .application a  {
     font-family: 'Ubuntu Condensed', sans-serif;
     color:rgba(29, 42, 119, 0.333);
-    font-size: 8em;
+    font-size: 3em;
 }
 
-.main-wrapper > .top-side-container > .icon-contact-wrapper > .application a:hover {
+.main-wrapper > .top-side-container > .application a:hover {
     color: #5665;
     transition-delay: 0.5s;
 }
